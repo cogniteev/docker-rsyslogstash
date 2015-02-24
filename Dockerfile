@@ -11,4 +11,4 @@ CMD </tmp/rsyslog.conf.append \
     sed \
     -e "s/@LOGSTASH_SERVER@/$LOGSTASH_SERVER/" \
     -e "s/@LOGSTASH_PORT@/$LOGSTASH_PORT/" \
-    >> /etc/rsyslog.conf && rsyslogd -n -D -d
+    >> /etc/rsyslog.conf && rsyslogd -n
