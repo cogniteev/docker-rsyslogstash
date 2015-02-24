@@ -26,4 +26,4 @@ Example:
    $ sudo docker run -d -e LOGSTASH_SERVER=thot.acme.org cogniteev/rsyslogstash
    ```
 
-This image takes benefits of its [parent image](https://github.com/cogniteev/docker-rsyslog8), meaning that you can easily forward your containers logs with the `--volumes-from` directives. Please take a look at the [sample docker-compose application](https://github.com/cogniteev/docker-rsyslog8/tree/master/sample) for a *real* usage
+This image takes benefits of its [parent image](https://registry.hub.docker.com/u/cogniteev/rsyslog8), meaning that you can easily forward your containers logs with the `--volumes-from` directives. Please take a look at the [sample docker-compose application](https://github.com/cogniteev/docker-rsyslog8/tree/master/sample) for a *real* usage
