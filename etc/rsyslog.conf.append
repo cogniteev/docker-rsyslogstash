@@ -1,3 +1,0 @@
-# Redirect everything to a log server formatted for logstash.
-#
-*.* @@LOGSTASH_SERVER@:@LOGSTASH_PORT@;ls_json

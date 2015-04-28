@@ -1,0 +1,11 @@
+#!/bin/sh
+
+OUTPUT=/var/log/containers
+
+mkdir -p $OUTPUT
+i=1
+while true; do
+    printf "%s INFO message %s\n" "`date -u '+%Y-%m-%d %H:%M:%S'`" $i
+    i=$(($i + 1))
+    sleep 1
+done >> $OUTPUT/$NAME.log
